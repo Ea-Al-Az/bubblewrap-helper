@@ -4,19 +4,18 @@ A small Rust utility (work in progress) to grab program file interactions and pi
 
 Status
 ------
-This project is a work in progress. The current repository contains the initial Rust source code and basic functionality, but several planned features remain to be implemented.
+This project is a work in progress. The current repository contains the initial Rust source code, but several planned features remain to be implemented.
 
 Planned work / roadmap
 ----------------------
 - Implement a Ratatui-based TUI for interactive use.
 - Add search filters for the PID/process list (name, regex(?), pid, user) so filtering and selection is easier and faster.
 - Reduce or remove on using the Linux shell.
-- Improve error handling, logging, and tests.
+- Improve error handling, logging, and testing.
 
 Build / compile instructions
 ----------------------------
 Prerequisites
-- Rust toolchain (rustup recommended). Install from: https://rustup.rs
 
 1) Clone the repository:
    git clone https://github.com/Ea-Al-Az/bubblewrap-helper.git
